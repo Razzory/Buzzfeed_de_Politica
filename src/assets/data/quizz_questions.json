@@ -1,0 +1,59 @@
+{
+  "title":"Em qual espectro político você se encontra ?",
+  "questions":[
+    {
+      "id":1,
+      "question": "Qual o papel do estado ?",
+      "options":[
+        {"id": 1, "name":"O Estado deve ser máximo.", "alias":"A"},
+        {"id": 2, "name":"O Estado deve ser mínimo", "alias":"B"},
+        {"id": 3, "name":"O Estado deve ser o suficiente pra gerir o país e o setor privado", "alias":"C"},
+        {"id": 4, "name":"O Estado deve ser o suficiente pra gerir o país sem interferir no setor privado", "alias":"D"},
+        {"id": 5, "name":"Tanto faz, não sei o que tô fazendo aqui", "alias":"E"}
+      ]
+    },
+    {
+      "id":2,
+      "question": "Você é a favor de maior taxação dos super ricos ?",
+      "options":[
+        {"id": 1, "name":"Sim, deve ser a prioridade", "alias":"A"},
+        {"id": 2, "name":"Não, Isso piora a economia", "alias":"B"},
+        {"id": 3, "name":"De forma geral sim, mas que seja como na França e Inglaterra: sem exageros", "alias":"C"},
+        {"id": 4, "name":"Em raras exceções, o Brasil já tem muito imposto", "alias":"D"},
+        {"id": 5, "name":"Talvez sim, talvez não, depende de cada caso e de cada acordo com os envolvidos", "alias":"E"}
+      ]
+    },
+    {
+      "id":3,
+      "question": "Complete a frase. Bandido bom é bandido ?",
+      "options":[
+        {"id": 1, "name":"Resocializado, se houver a possibilidade", "alias":"A"},
+        {"id": 2, "name":"Morto", "alias":"B"},
+        {"id": 3, "name":"Resocializado, se o crime cometido não é hediondo", "alias":"C"},
+        {"id": 4, "name":"Preso, condenado e que cumpra toda a pena integralmente", "alias":"D"},
+        {"id": 5, "name":"Convertido para a Universal para se tornar pastor e homem de Deus", "alias":"E"}
+      ]
+    },
+    {
+      "id":4,
+      "question": "Qual sua opinião sobre meritocracia ?",
+      "options":[
+        {"id": 1, "name":"Não existe na prática, é uma falácia pra rico justificar a própria fortuna", "alias":"A"},
+        {"id": 2, "name":"É o que norteia nossa sociedade. ", "alias":"B"},
+        {"id": 3, "name":"Existe, mas tá longe de ser a regra, faltam mais oportunidades pra maioria das pessoas", "alias":"C"},
+        {"id": 4, "name":"O mundo é para os capazes, só alcança sucesso quem realmente se esforça para isso", "alias":"D"},
+        {"id": 5, "name":"Depende da quantidade de amigos ricos, influentes ou político que a pessoa tiver", "alias":"E"}
+
+
+      ]
+    }
+
+  ],
+  "results":{
+    "A": "Você muito provavelmente é de ESQUERDA!",
+    "B": "Você muito provavelmente é de DIREITA!",
+    "C": "Você muito provavelmente é de CENTRO-ESQUERDA!",
+    "D": "Você muito provavelmente é de CENTRO-DIREITA!",
+    "E": "Você muito provavelmente é PERDIDO NA MUDANÇA!"
+  }
+}
